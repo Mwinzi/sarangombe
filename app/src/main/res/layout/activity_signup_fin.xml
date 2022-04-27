@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite"
+    android:padding="30dp"
+    tools:context=".SignupFin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/uno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/phone"
+            android:textSize="15sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/uno"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_edit_text"
+                    android:fontFamily="@font/lineto_circular_pro_book"
+                    android:inputType="phone"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#101010" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/dos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/signup_phone"
+                android:fontFamily="@font/lineto_circular_pro_medium"
+                android:text="@string/password"
+                android:textSize="15sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dos"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_edit_text"
+                    android:fontFamily="@font/lineto_circular_pro_book"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#101010" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/signup_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/signup_password"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/next4"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/clear"
+                    android:fontFamily="@font/lineto_circular_pro_bold"
+                    android:text="@string/save"
+                    android:textColor="@color/tan"
+                    android:textSize="12sp"
+                    android:transitionName="transition_next" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:id="@+id/next5"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:enabled="false"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bg_enabled"
+                    android:fontFamily="@font/lineto_circular_pro_bold"
+                    android:text="@string/next_btn"
+                    android:textColor="@color/lightWhite"
+                    android:textSize="13sp"
+                    android:transitionName="transition_next" />
+
+            </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

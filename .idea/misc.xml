@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/drawable/bg_black_rounded.xml" value="0.109" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/drawable/bg_edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/drawable/bg_enabled.xml" value="0.1195" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/drawable/bg_peach_card.xml" value="0.109" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/drawable/bg_round_display.xml" value="0.109" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_kwanza.xml" value="0.1" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_location.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_passport_photo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_profile.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_qr_generator.xml" value="0.264" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_report.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_report_success.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_ride_precise.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_signup_fin.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_signup_one.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_signup_tres.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/jmkat/AndroidStudioProjects/Sarangombe/app/src/main/res/layout/activity_signup_two.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

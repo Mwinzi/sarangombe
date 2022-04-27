@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite"
+    tools:context=".QrGenerator">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/unique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/code"
+            android:fontFamily="@font/lineto_circular_pro_book"
+            android:textColor="@color/tan"
+            android:layout_marginTop="140dp"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/clear"
+            android:text=""
+            android:id="@+id/tv_code" />
+
+        <RelativeLayout
+            android:id="@+id/relay"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bg_peach_card"
+            android:elevation="5dp"
+            android:layout_below="@+id/unique">
+
+            <ImageView
+                android:id="@+id/iv_output"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_relay"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relay"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@color/clear">
+
+            <Button
+                android:id="@+id/bt_generate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/clear"
+                android:fontFamily="@font/lineto_circular_pro_bold"
+                android:text="@string/proceed"
+                android:textColor="@color/tan" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/btn_relay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:id="@+id/bt_finish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_enabled"
+                android:enabled="false"
+                android:fontFamily="@font/lineto_circular_pro_bold"
+                android:onClick="callDash"
+                android:text="@string/finish"
+                android:textColor="@color/lightWhite" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">Sarangombe</string>
+
+    <string name="todo">todo</string>
+    <string name="powered">powered by nanesoft labs</string>
+
+    <!-- SignOn Screens -->
+    <string name="signup">Sign Up</string>
+    <string name="name">Rider\'s Name</string>
+    <string name="idee">ID Number</string>
+    <string name="county">County</string>
+    <string name="sub">Sub County</string>
+    <string name="ward">Ward</string>
+    <string name="stage">Stage</string>
+    <string name="member">Membership ID</string>
+    <string name="sacco">Sacco</string>
+    <string name="chair">Stage Chairman</string>
+    <string name="chair2">Chairman Phone No</string>
+    <string name="license">License Number</string>
+    <string name="plate">Number Plate</string>
+    <string name="bike">Bike Model</string>
+    <string name="color">Bike Color</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+
+    <string name="next_btn">Next</string>
+    <string name="proceed">Generate</string>
+    <string name="finish">Finish</string>
+    <string name="save">click to save details</string>
+
+    <string name="test">John Dolores, 31313132, Sarangombe, olympic, 0002, DL-A2-XYZ, KAC 123D, CH-K1234DA, white, 0712345678</string>
+
+    <string name="generate">sign up successful.</string>
+    <string name="code">Click button to generate unique rider qr code.</string>
+
+    <string name="dash">Dashboard</string>
+
+    <string name="profile">profile</string>
+    <string name="reg">register rider</string>
+    <string name="location">location</string>
+    <string name="report">report incident</string>
+    <string name="merch">merchandise</string>
+
+    <string name="essay">write incident essay below</string>
+    <string name="post">post</string>
+    <string name="passport">passport photo</string>
+    <string name="image">Select Image</string>
+    <string name="imageDesc">Pick image of your passport picture from gallery</string>
+    <string name="success">report incident posted successfully</string>
+
+</resources>

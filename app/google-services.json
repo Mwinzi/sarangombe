@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414314442798",
+    "project_id": "sarangombe-c84d5",
+    "storage_bucket": "sarangombe-c84d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414314442798:android:992028674bad7e8ddbefbf",
+        "android_client_info": {
+          "package_name": "com.mwinzi.sarangombe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414314442798-llpoi740ovkrpld0vmg9djit9rd2mvao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMYiLL0ijQLx8-LXwKi-zsyu1nJzE0JI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414314442798-llpoi740ovkrpld0vmg9djit9rd2mvao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

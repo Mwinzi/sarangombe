@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite"
+    android:padding="30dp"
+    tools:context=".SignupOne">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sign_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/signup"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_below="@id/sign_title"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lineto_circular_pro_medium"
+                android:text="@string/name"
+                android:textSize="15sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_edit_text"
+                    android:fontFamily="@font/lineto_circular_pro_book"
+                    android:inputType="textPersonName"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#101010" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lineto_circular_pro_medium"
+                android:text="@string/idee"
+                android:textSize="15sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_edit_text"
+                    android:fontFamily="@font/lineto_circular_pro_book"
+                    android:inputType="number"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#101010" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_black_rounded"
+                    android:fontFamily="@font/lineto_circular_pro_bold"
+                    android:text="@string/next_btn"
+                    android:textColor="@color/lightWhite"
+                    android:onClick="callNext"
+                    android:transitionName="transition_next"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

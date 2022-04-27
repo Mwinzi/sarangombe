@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite"
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/profile"
+            android:textColor="@color/tan"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleProfile"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/name"
+            android:textColor="@color/tan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleName"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/name"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/titleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileName"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/idee"
+            android:textColor="@color/tan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profileId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleId"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/idee"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/titleLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileId"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/license"
+            android:textColor="@color/tan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profileLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleLicense"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/license"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/titlePlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileLicense"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/plate"
+            android:textColor="@color/tan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profilePlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titlePlate"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/plate"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/titleStage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilePlate"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/stage"
+            android:textColor="@color/tan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profileStage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleStage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/stage"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/titleStageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileStage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lineto_circular_pro_bold"
+            android:text="@string/member"
+            android:textColor="@color/tan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profileStageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleStageId"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lineto_circular_pro_medium"
+            android:text="@string/member"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/campusId"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/profileStageId"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardBackgroundColor="@color/lightWhite"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_camp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="60dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_person"
+                    app:tint="@color/tan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_camp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lineto_circular_pro_bold"
+                    android:text="@string/passport"
+                    android:textColor="@color/tan"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_camp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/clear"
+                    android:onClick="passport" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
